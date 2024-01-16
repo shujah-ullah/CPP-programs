@@ -1,0 +1,5 @@
+Name	Department 	Salary
+Shujah	Technical		100000
+Ali	Administration	 40000
+Ahmed	Management	200000		
+Zahoor	Transportation	25000	                  	

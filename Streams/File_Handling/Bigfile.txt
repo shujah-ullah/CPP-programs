@@ -1,0 +1,1053 @@
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+v
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+v
+v
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+v
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+v
+v
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+v
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+v
+v
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 
+Let’s consider another example. We know how to read a file character by 
+character, write into another file or on the screen. If we want to write into a 
+file after reading another file, there are already enough tools to get (read) 
+one character from a file and put (write) into the other one. We can use 
+inputFile.getc () to get a character and outputFile.putc () to write a 
+character into a file. 
+As mentioned earlier, there is very inefficient way of doing things . We also 
+know that for reading and writing to disk, processing in chunks is more 
+efficient. Can we handle more data than a single byte or a single line? The 
+answer is yes. We can use read () and write () functions for this purpose. 
+These functions are binary functions and provided as a part of the stream 
+functions. The term binary means that they read and write in binary mode , 
+not in characters. We tell a location in memory to read () function to write 
+the read data and with the number of bytes to read or write. Usually, 
+read(arrayname, number of bytes) e.g. read(a, 10). 
+Now depending on our computer’s memory, we can have a very large data 
+in it. It may be 64K. 
+You are required to write two programs: 
+One program will be used to get to read from a file and put to write into the 
+other file. Prepare a simple character file using notepad or any other editor 
+of your choice. Put some data inside and expand the size of the data in the 
+file by using the copy-paste functions. A program can also be written to 
+make this big-sized data file. The file size should be more than 40K 
+preferably. Read this file using getc () and write it another file using putc (). 
+Try to note down the time taken by the program. Explore the time ()
+function and find out how to use it in your program to note the processing 
+time. 
+Write another program to do the same operation of copying using read and 
+write functions. How to do it? 

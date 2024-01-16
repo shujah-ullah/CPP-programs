@@ -1,0 +1,6 @@
+In the Rectangle Class 1 we have problem of DATA HIDING.
+for instance user/programmer assigns vaue -5 as length to Recatngle
+r1->length = -5;
+then area and parameter would be -ive valued also, so this is an error.
+it occur due to reason that user has direct access to data of program which should be avoided.
+this bring us the concept of DATA HIDING which is impemented in Rectangle class 2.

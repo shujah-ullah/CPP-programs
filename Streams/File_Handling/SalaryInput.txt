@@ -1,0 +1,3 @@
+Shujah 10000
+Amir 2000
+Ali 3000	

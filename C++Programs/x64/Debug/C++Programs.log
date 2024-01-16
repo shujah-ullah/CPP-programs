@@ -1,0 +1,29 @@
+﻿  2D_Arrays..cpp
+C:\Users\LENOVO\source\repos\C++Programs\Arrays\2D_Arrays..cpp(8,12): error C2131: expression did not evaluate to a constant
+C:\Users\LENOVO\source\repos\C++Programs\Arrays\2D_Arrays..cpp(8,12): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\LENOVO\source\repos\C++Programs\Arrays\2D_Arrays..cpp(8,12): message : see usage of 'maxRows'
+C:\Users\LENOVO\source\repos\C++Programs\Arrays\2D_Arrays..cpp(8,21): error C2131: expression did not evaluate to a constant
+C:\Users\LENOVO\source\repos\C++Programs\Arrays\2D_Arrays..cpp(8,21): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\LENOVO\source\repos\C++Programs\Arrays\2D_Arrays..cpp(8,21): message : see usage of 'maxCol'
+C:\Users\LENOVO\source\repos\C++Programs\Arrays\2D_Arrays..cpp(17,8): warning C4552: '>>': result of expression not used
+C:\Users\LENOVO\source\repos\C++Programs\Arrays\2D_Arrays..cpp(25,8): warning C4552: '<<': result of expression not used
+C:\Users\LENOVO\source\repos\C++Programs\Arrays\2D_Arrays..cpp(34,1): error C2036: 'int [maxRows][maxCol]': unknown size
+  arrays..cpp
+  BinarySearch.cpp
+  BubbleSort..cpp
+C:\Users\LENOVO\source\repos\C++Programs\Arrays\BubbleSort..cpp(8,10): error C2131: expression did not evaluate to a constant
+C:\Users\LENOVO\source\repos\C++Programs\Arrays\BubbleSort..cpp(8,10): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\LENOVO\source\repos\C++Programs\Arrays\BubbleSort..cpp(8,10): message : see usage of 'n'
+C:\Users\LENOVO\source\repos\C++Programs\Arrays\BubbleSort..cpp(13,9): warning C4552: '>>': result of expression not used
+C:\Users\LENOVO\source\repos\C++Programs\Arrays\BubbleSort..cpp(27,12): error C3863: array type 'int [n]' is not assignable
+C:\Users\LENOVO\source\repos\C++Programs\Arrays\BubbleSort..cpp(28,14): error C3863: array type 'int [n]' is not assignable
+C:\Users\LENOVO\source\repos\C++Programs\Arrays\BubbleSort..cpp(37,15): warning C4552: '<<': result of expression not used
+  character_Arrays..cpp
+  flipp_matrix_rows..cpp
+  Search_in_Array..cpp
+  sumOfsquares_Array..cpp
+  TransposeOfMatrix..cpp
+  userInput_usingArrays..cpp
+  Generating Code...
+C:\Users\LENOVO\source\repos\C++Programs\Arrays\userInput_usingArrays..cpp(10): error C4700: uninitialized local variable 'i' used
+C:\Users\LENOVO\source\repos\C++Programs\Arrays\flipp_matrix_rows..cpp(40): error C4716: 'ReadArray': must return a value

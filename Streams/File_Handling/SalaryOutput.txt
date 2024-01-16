@@ -1,0 +1,1 @@
+total salary is: 15000

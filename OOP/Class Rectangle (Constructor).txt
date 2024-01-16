@@ -1,0 +1,30 @@
+ Constructor: 
+Constructor is member function of class which initializes data members at the time of object creation; Setter function initializes data members after when object is created.
+
+Properties of Constructors:
+
+1. Constructors have same name as of our Class.
+
+2. If there is no Constructor implemented in the code then by default there exist a constructor which is called by Compiler Automatically.
+3. There are following types of Constructors:
+	Default Constructor.
+	Parameterless Constructor.
+	Parametrized Constructor.
+	Copy Constructor >>>>Shallow Copy>>>>>Deep Copy.
+
+Copy Constructor.....
+Copy Constructor takes an object as Argument and copies properties of that object to create a new object.
+so we have an object which is already constructed and we want to create another same object we will use Copy Constructor.
+
+example: We have Rectangle r1 of size 4*2 we pass r1 as Argument to Copy constructor it will create another Rectangle r2 of size same 4*2.
+
+****SHALLOW COPY****
+Not suitable for DMA
+****DEEP COPY****
+Suitable for DMA because it creates new objects dynamically.
+
+
+
+
+
+	

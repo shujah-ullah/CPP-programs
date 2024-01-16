@@ -1,0 +1,6 @@
+Constructor
+Mutator / SETTER
+Accessor / GETTER
+Facilitators.
+Enquiry
+Destructor.
